@@ -1,0 +1,37 @@
+.transaction-from-bg-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.transaction-label{
+    font-family: Roboto;
+    font-weight: bold;
+}
+.transaction-input{
+    border: solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 5px;
+    font-family: Roboto;
+    margin-bottom: 10px;
+    outline: none;
+}
+.add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    font-family: Roboto;
+    background-color: rgba(0, 89, 255, 0.897);
+    color: #ffffff;
+    margin-top: 20px;
+    outline: none;
+}
+.add-button:focus{
+    outline: none;
+}

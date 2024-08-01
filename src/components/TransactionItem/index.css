@@ -1,0 +1,14 @@
+tr td{
+    text-align: center;
+    font-family: Roboto;
+    border: solid;
+    border-collapse: collapse;
+}
+.delete-button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.delete-button:focus{
+    outline: none;
+}

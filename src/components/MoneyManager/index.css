@@ -1,0 +1,160 @@
+.money-manager-bg-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    /* min-height: 100vh; */
+}
+.money-manager-money-cards{
+    display: flex;
+    flex-direction: row;
+    /* border: solid blue; */
+    width: 70vw;
+    justify-content: space-between;
+}
+.money-manager-each-card{
+    display: flex;
+    border: solid #84cc16;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 26%;
+    border-radius: 10px;
+    background-color: #ecfccb;
+}
+.money-manager-each-card2{
+    display: flex;
+    border: solid #06b6d4;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 26%;
+    border-radius: 10px;
+    background-color: #cffafe;
+}
+.money-manager-each-card3{
+    display: flex;
+    border: solid  #7c3aed;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 26%;
+    border-radius: 10px;
+    background-color:  #ede9fe;
+}
+.money-manager-balance-container{
+    display: flex;
+    flex-direction: column;
+}
+.icon-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecfccb;
+    background-color: #84cc16;
+    margin-right: 20px;
+}
+.icon{
+    font-size: 30px;
+}
+.balance{
+    margin-bottom: 0px;
+}
+.amount{
+    margin-top: 0px;
+}
+.money-manager-transaction-form-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transation-sub-container{
+    width: 35%;
+    margin-top: 20px;
+    height: 50vh;
+    border: solid gray;
+    border-radius: 15px;
+
+}
+.transation-sub-container1{
+    width: 60%;
+    margin-top: 20px;
+    border: solid gray;
+    border-radius: 15px;
+    height: 50vh;
+    overflow: auto;
+}
+table {
+    width: 100%;
+    border: solid 1px;
+    border-collapse: collapse;
+}
+th{
+    border: solid;
+}
+.transaction-title{
+    width: 43%;
+}
+.transaction-amount{
+    width: 22%;
+}
+.transaction-type{
+    width: 22%;
+}
+.transaction-delete{
+    width: 12%;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .money-manager-money-cards{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .money-manager-each-card{
+        width: 70%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .money-manager-each-card2{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .money-manager-each-card3{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .money-manager-transaction-form-items-container{
+        flex-direction: column;
+    }
+    .transation-sub-container{
+        width: 100%;
+    }
+    .transation-sub-container1{
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:970px) {
+    .transation-sub-container{
+        width: 37%;
+    }
+    .money-manager-money-cards{
+        width: 100%;
+    }
+    .money-manager-each-card{
+        width: 24%;
+        height: 90px;
+    }
+    .money-manager-each-card2{
+        width: 24%;
+        height: 90px;
+    }
+    .money-manager-each-card3{
+        width: 24%;
+        height: 90px;
+    }
+}
