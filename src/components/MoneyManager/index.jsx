@@ -6,6 +6,7 @@ import './index.css'
 import { createContext, useReducer } from 'react';
 
 export const store = createContext()
+
 const initialState = {
     balance : 0,
     income : 0,
